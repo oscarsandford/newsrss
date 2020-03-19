@@ -74,7 +74,8 @@ def main():
             print("Usage:   news.py <limiter (int)> <keyword(s) (str)>" )
             sys.exit(0)
 
-    get_entries(keywords, limit)
+        get_entries(keywords, limit)
+    # end if/else
 
 
 if __name__ == '__main__':
